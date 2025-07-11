@@ -26,3 +26,4 @@ static inline int16_t get_lut_sample_from_phase(float phase)
     int index = (int)(phase * LUT_SIZE);
     return sine_lut[index % LUT_SIZE];
 }
+
